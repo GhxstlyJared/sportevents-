@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportEvents Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 60px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .feature {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin: 15px 0;
+            color: #555;
+        }
+        
+        .feature span {
+            font-size: 24px;
+        }
+        
+        .cta {
+            margin-top: 30px;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .cta:hover {
+            transform: scale(1.05);
+        }
+        
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">🏆</div>
+        <h1>SportEvents Manager</h1>
+        <p>Управляйте спортивными мероприятиями, создавайте турниры и отслеживайте результаты</p>
+        
+        <div class="feature">
+            <span>⚽</span>
+            <span>Турнирные сетки</span>
+        </div>
+        <div class="feature">
+            <span>👥</span>
+            <span>Управление командами</span>
+        </div>
+        <div class="feature">
+            <span>📊</span>
+            <span>Статистика и результаты</span>
+        </div>
+        
+        <button class="cta" onclick="window.location.href='#download'">Скачать приложение</button>
+        
+        <div class="footer">
+            © 2024 SportEvents Manager
+        </div>
+    </div>
+</body>
+</html>
+
